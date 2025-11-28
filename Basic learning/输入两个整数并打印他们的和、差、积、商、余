@@ -1,0 +1,12 @@
+num1=int(input("\n请输入第一个整数"))
+num2=int(input("请输入第二个整数(不可为0)"))
+sum_result=num1+num2
+print("两数之和为:",sum_result)
+diff_result=num1-num2
+print("两数之差为:",diff_result)
+product_result=num1*num2
+print("两数之积为:",product_result)
+quotient_result=round(num1/num2,2)
+print("两数之商为:",quotient_result)
+remainder_result=num1%num2
+print("两数取余为:",remainder_result)
