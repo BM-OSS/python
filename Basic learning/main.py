@@ -1,0 +1,8 @@
+import math
+float_num=float(input("\n请输入一个浮点数:"))
+square_num=float_num**2
+cube_num=float_num**3
+sqrt_result=math.sqrt(float_num)
+print(f"{float_num}的平方为:{square_num}")
+print(f"{float_num}的立方为:{cube_num}")
+print(f"{float_num}的平方根:{sqrt_result}")
