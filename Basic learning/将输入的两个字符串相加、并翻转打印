@@ -1,0 +1,7 @@
+str1=input("\n请输入第一个字符串:")
+str2=input("请输入第二个字符串:")
+
+concatenated_string=str1+str2
+reversed_string=concatenated_string[::-1]
+print(f"拼接后的字符串为:{concatenated_string}")
+print(f"翻转后的字符串为:{reversed_string}")
