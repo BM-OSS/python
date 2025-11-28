@@ -1,0 +1,14 @@
+s=input("\n请输入一个字符串:")
+letter_count=0
+digit_count=0
+other_count=0
+for char in s:
+    if char.isalpha():
+        letter_count+=1
+    elif char.isdigit():
+        digit_count+=1
+    else:
+        other_count+=1
+print(f"字母字符的个数为:{letter_count}")
+print(f"数字字符的个数为:{digit_count}")
+print(f"其他字符的个数为:{other_count}")
