@@ -1,4 +1,4 @@
-s=input("\n请输入一个字符串:")
+   s=input("\n请输入一个字符串:")
 letter_count=0
 digit_count=0
 other_count=0
